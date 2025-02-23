@@ -1,5 +1,5 @@
 # Experimental!
-I ~ "../libs/iris/lib" ~ Color Draw Key T
+I ~ "git:https://github.com/Marcos-cat/iris" ~ Color Draw Key T
 
 Valid ← ⌵ ⊜∘⊸≠@\n&fras"./words.txt"
 Word  ← ⌵ ⊜∘⊸≠@\n&fras"./answers.txt"
