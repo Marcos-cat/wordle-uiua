@@ -20,7 +20,7 @@ Print  ← Draw~Centered~Text White Size Pos ∵¤ ⬚@\s≡°□ # ? Guesses
 Colors ← (
   ⤚∩⌞⍜▽⋅@-◡=
   ◌∧(⊃(⨬◌⍜⊏⋅@-|⊂:⊙⋅⋅∘)×⊸⊓(≠@-|≠∞)⟜⊸⬚∞⊗) ⊙⊙[]
-  ˜⊏ ≡Color~Hex "#3a3a3c"_"#b59f3b"_"#538d4e" +⊃×₂(×¬):
+  ˜⊏ Color~Hex "#3a3a3c"_"#b59f3b"_"#538d4e" +⊃×₂(×¬):
 )
 Squares ← ⍥(Draw~Centered~Square ⊙Size : Pos ≡⌟◇Colors)±⊸⧻↘₋₁
 Message ← Draw~Centered~Text White ×0.7Size ÷2ℂWidth Top
