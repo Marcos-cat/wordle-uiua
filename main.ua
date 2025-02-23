@@ -13,16 +13,17 @@ Gap  ← 10
 Side ← ÷2 -×4Gap -×5Size Width
 Pos  ← +˙ℂ÷2 Size +ℂSide Top ×+Gap Size T~Grid
 
-Submit ← ⍜⊣(⍥(⊂:□"")×⊃(=5⧻|∊Valid)⊸°□)                # ? Guesses
-Clean  ← ▽⊸∊+@A⇡26 ⌵ ⍜⧻↧₅                             # ? Input
-Print  ← Draw~Centered~Text White Size Pos ∵¤ ⬚@\s≡°□ # ? Guesses
-# ? Guess Word
+Submit ← ⍜⊣(⍥(⊂:□"")×⊃(=5⧻|∊Valid)⊸°□)
+Clean  ← ▽⊸∊+@A⇡26 ⌵ ⍜⧻↧₅
+Print  ← Draw~Centered~Text White Size Pos ∵¤ ⬚@\s≡°□
 Colors ← (
-  ⤚∩⌞⍜▽⋅@-◡=
-  ◌∧(⊃(⨬◌⍜⊏⋅@-|⊂:⊙⋅⋅∘)×⊸⊓(≠@-|≠∞)⟜⊸⬚∞⊗) ⊙⊙[]
-  ˜⊏ Color~Hex "#3a3a3c"_"#b59f3b"_"#538d4e" +⊃×₂(×¬):
+  ⬚@\s↙◡⋅⧻
+  ⍥÷₂˜∊@\s ⟜(
+    +=@-˜∧(⍜▽(⍥⍜⊢⋅@-±⊸⧻)⊸=) ⤚∩⌞⍜▽⋅@-◡=
+    ˜⊏ Color~Hex "#3a3a3c"_"#b59f3b"_"#538d4e"
+  )
 )
-Squares ← ⍥(Draw~Centered~Square ⊙Size : Pos ≡⌟◇Colors)±⊸⧻↘₋₁
+Squares ← Draw~Centered~Square ⊙Size : Pos ≡⌟◇Colors ⬚""↙6 ↘₋₁
 Message ← Draw~Centered~Text White ×0.7Size ÷2ℂWidth Top
 
 Won  ← ◇≍⬚""⊣↘₋₁
