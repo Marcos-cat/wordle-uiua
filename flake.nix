@@ -1,5 +1,5 @@
 {
-  description = "Worlde";
+  description = "Wordle";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
