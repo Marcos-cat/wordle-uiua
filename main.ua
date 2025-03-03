@@ -5,11 +5,11 @@ Valid ← ⌵ ⊜∘⊸≠@\n&fras"./words.txt"
 Word  ← ⌵ ⊜∘⊸≠@\n&fras"./answers.txt"
 
 Width  ← 700
-Height ← 900
+Height ← ×1.3Width
 
-Size ← 70
-Top  ← 120
-Gap  ← 10
+Size ← ×0.1Width
+Top  ← ×0.1Height
+Gap  ← ×0.2Size
 Side ← ÷2 -×4Gap -×5Size Width
 Pos  ← +˙ℂ÷2 Size +ℂSide Top ×+Gap Size T~Grid
 
