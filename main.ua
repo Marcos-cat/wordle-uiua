@@ -32,12 +32,12 @@ Playing ← ×⊃(¬Lost|¬Won)
 New ← {""} (⊢°⍆Word)
 
 I~Open ℂWidth Height "Wordle"
-I~Screen!°FPS 30
+I~Window!°FPS 30
 
 New
 
 I~Loop!(
-  Draw~Background Color~Hex "#121213"
+  Draw~Background "#121213"
 
   Key!Pressed‼Enter Submit
   ⍥⍜⊣⍚(Clean Key~Input)◡Playing
