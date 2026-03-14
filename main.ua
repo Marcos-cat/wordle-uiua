@@ -1,8 +1,8 @@
 # Experimental!
 I ~ "git: github.com/Marcos-cat/iris" ~ Color Draw Key T
 
-Valid  ← ⌵ ⊜∘⊸≠@\n&fras"words.txt"
-Word   ← ⌵ ⊜∘⊸≠@\n&fras"answers.txt"
+Valid  ← ⌵ ≡(▽¬⊸=@\r) ⊜∘⊸≠@\n&fras"words.txt"
+Word   ← ⌵ ≡(▽¬⊸=@\r) ⊜∘⊸≠@\n&fras"answers.txt"
 Width  ← 700
 Height ← ×1.3Width
 Font   ← "RobotoMono-Medium.ttf"
