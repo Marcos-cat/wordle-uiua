@@ -12,7 +12,7 @@ Gap    ← ×0.2Size
 Side   ← ÷2 -×4Gap -×5Size Width
 Pos    ← +˙ℂ÷2 Size +ℂSide Top ×+Gap Size /˜ℂ°⍉⇡△₂
 
-Submit ← ⍜⊣(⍥(⊂:□"")×⊃(=5⧻|∊Valid)⊸°□)
+Submit ← ⍜⊣(⍥(˜⊂□"")×⊃(=5⧻|∊Valid)⊸°□)
 Clean  ← ▽⊸∊+@A⇡26 ⌵ ⍜⧻↧₅
 Print  ← Draw~Text!(°⊸Centered1 °⊸Font) Font White ×1.2Size⊸Pos ≡₀¤ ⬚@\s≡°□
 Colors ← (
